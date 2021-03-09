@@ -10,7 +10,7 @@ public class BiJiaoDaXiao {
         int num2 = scan.nextInt();
         System.out.println("请输入第3个整数");
         int num3 = scan.nextInt();
-
+123456
         if(num1>num2){
             //比大的还大
             if(num3>num1){
