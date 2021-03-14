@@ -13,7 +13,7 @@ public class YiWeiShuZu {
         names[0] ="王铭";
         names[1] ="王赫";
         names[2] ="张学良";
-        names[3] ="孙居龙";11
+        names[3] ="孙居龙";
         names[4] ="王宏志";
         System.out.println(names.length);
         System.out.println(ids.length);
