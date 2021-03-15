@@ -5,7 +5,7 @@ public class YiWeiShuZu {
 
         /**静态初始化*/
         int [] ids = new int[]{1001,1002,1003,1004};
-        /**动态初始化*/
+        /**String型的数组的动态初始化*/
         String[] names = new String[5];
         //总结:数组一旦初始化完成，其长度就确定了。
         /**2.如何调用数组的指定位置的元素:通过角标的方式调用。*/
@@ -17,6 +17,11 @@ public class YiWeiShuZu {
         names[4] ="王宏志";
         System.out.println(names.length);
         System.out.println(ids.length);
+
+        /**遍历数组,范围就是数组的长度*/
+        for(int i= 0;i < names.length;i++){
+            System.out.println(names[i]);
+        }
     }
 
 }
