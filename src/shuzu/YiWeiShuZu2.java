@@ -18,5 +18,11 @@ public class YiWeiShuZu2 {
             /**打印角标/索引为0的数组的值*/
             System.out.println(arr2[0]);
         }
+        /**引用数据类型的初始值是 null */
+        String[] arr3 = new String[5];
+        System.out.println(arr3[0]);
+        if(arr3[0]==null){
+            System.out.println("的确是null");
+        }
     }
 }
