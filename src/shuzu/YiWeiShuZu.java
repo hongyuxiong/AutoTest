@@ -12,7 +12,7 @@ public class YiWeiShuZu {
         /**数组的角标（或索引）从日开始的，到数组的长度-1结束。*/
         names[0] ="王铭";
         names[1] ="王赫";
-        names[2] ="张学良";
+        names[2] ="张学良"; 
         names[3] ="孙居龙";
         names[4] ="王宏志";
         System.out.println(names.length);
