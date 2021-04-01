@@ -1,5 +1,10 @@
 package shuzu;
-
+/**
+ * @author $zhanghongyu
+ * USER 表示主机名
+ * @date ${DATE} ${TIME}
+ * DATA 为文档创建日期，TIME 为详细创建时间
+ */
 public class TwoWeiShuZu {
     public static void main(String[] args){
         /** 二维数组的声明和初始化*/
