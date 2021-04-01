@@ -33,8 +33,11 @@ public class YiWeiShuZu3 {
         for(int i = 0; i < scores.length;i++){
             if(maxscore < scores[i]){
                 maxscore=scores[i];
+
             }
-        }
+    }
+        System.out.println("最高分是"+maxscore);
+
         /**5.根据每个学生成绩与最高分的差值，得到每个学生的等级，并输出等级和成绩*/
         char level;
         for(int i=0;i<scores.length;i++){
