@@ -16,7 +16,7 @@ public class TwoWeiShuZu {
 
 
         System.out.println("--------------------");
-        /**动态初始化，有三个数组，每个数组内有一个2个元素的一维数组*/
+        /**动态初始化，有三个数组，每个外层数组内有一个内层是2个元素的一维数组*/
         String[][] arr2 = new String[3][2];
 
         /**只有三行数组，每个数组中没有元素*/
@@ -55,15 +55,14 @@ public class TwoWeiShuZu {
         System.out.println("------内存解析1--------------");
 
         String[][] arr5 = new String[4][3];
-        /**数组的初始化如果外层和内层都初始化了，外层数组存放初始值是是数组的地址值*/
+        /**数组的初始化如果---外层和内层---都初始化了，外层数组存放初始值是是数组的地址值*/
         System.out.println(arr5[0]);
         System.out.println(arr5[1]);
         System.out.println(arr5[2]);
         System.out.println(arr1[0][0]);
 
-
         System.out.println("--------内存解析2------------");
-        /**数组的初始化如果只有外层初始化了，外层数组存放初始值是是null*/
+        /**数组的初始化如果只有--外层--初始化了，外层数组存放初始值是是null*/
         String[][] arr6 = new String[4][];
         /**存放的是没有赋值的一维数组String[]，一维数组是引用类型，默认值是null*/
         System.out.println(arr6[0]);
