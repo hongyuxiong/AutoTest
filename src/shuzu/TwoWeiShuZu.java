@@ -11,13 +11,13 @@ public class TwoWeiShuZu {
         /**一维数组静态初始化*/
         int[] arr = new int[]{1,2,3};
         /**二维数组静态初始化*/
-        int[][] arr1 = new int[][]{{1,2,3,},{4,5},{6,7,8}};
+        int[][] arr1 = new int[][]{{4,9,3,},{4,5},{6,7,8}};
 
 
         System.out.println("--------------------");
         /**动态初始化，有三个数组，每个数组内有一个2个元素的一维数组*/
         String[][] arr2 = new String[3][2];
-
+        System.out.println(arr2[1][1]);
         /**只有三行数组，每个数组中没有元素*/
         String[][] arr3 = new String[3][0];
 
@@ -40,9 +40,10 @@ public class TwoWeiShuZu {
         System.out.println("arr1数组第一个子数组的长度是"+arr1[0].length);
         System.out.println("arr1数组第二 个子数组的长度是"+arr1[1].length);
 
-
+        System.out.println("------遍历arr1二维数组的第一种写法--------------");
         /**遍历二维数组*/
-        /**获取外围数组的长度*/
+        /**获取外围数组的长度，这种写法的思想是遍历出一个外围数组的元素
+         * 就打印出内层数组的所有的元素*/
         for(int i=0;i<arr1.length;i++){
             /**获取内层数组的长度*/
             for(int j=0;j<arr1[i].length;j++){
@@ -50,6 +51,23 @@ public class TwoWeiShuZu {
             }
             System.out.println();
         }
+
+
+        System.out.println("------遍历arr1二维数组第二种写法--------------");
+        /**遍历二维数组*/
+        /**外层循环变量为一维数组，用debug模式可以验证代码的计算方式*/
+        for(int[] i:arr1){
+            /**循环遍历每一个数组元素，在第一个数组中遍历出一个元素打印一个
+             再遍历下一个数组再次打印* */
+            for(int j:i ) {
+                System.out.print(j+"  ");
+            }
+            System.out.println();
+        }
+
+
+
+
 
         System.out.println("------内存解析1--------------");
 
@@ -59,7 +77,6 @@ public class TwoWeiShuZu {
         System.out.println(arr5[1]);
         System.out.println(arr5[2]);
         System.out.println(arr1[0][0]);
-
 
 
         System.out.println("--------内存解析2------------");
