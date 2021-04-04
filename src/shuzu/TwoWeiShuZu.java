@@ -63,14 +63,11 @@ public class TwoWeiShuZu {
 
 
         System.out.println("--------内存解析2------------");
-        /**数组的初始化如果只有外层初始化了，外层数组存放初始值是是null，实际上存放的是没有初始化的内层的一维数组String[]，一维数组是引用类型，
-         * 不论一维数组的类型是int，还是String，还是float，都是一维数组，null是一维数组的默认值*/
+        /**数组的初始化如果只有外层初始化了，外层数组存放初始值是是null*/
         String[][] arr6 = new String[4][];
+        /**存放的是没有赋值的一维数组String[]，一维数组是引用类型，默认值是null*/
         System.out.println(arr6[0]);
-
-        /**System.out.println(arr6[0][0]);
-         * 会报空指针异常，因为外围数组的默认值是null，没有地址值指向内层数组，
-         * 因此在外层地址没有地址值的情况下获取内层数组的值会报空指针异常*/
+        /**System.out.println(arr6[0][0]);  会报空指针异常*/
 
 
     }
