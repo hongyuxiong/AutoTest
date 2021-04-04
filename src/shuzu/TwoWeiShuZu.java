@@ -7,7 +7,6 @@ package shuzu;
  */
 public class TwoWeiShuZu {
     public static void main(String[] args){
-        /** 二维数组的声明和初始化*/
 
         /**一维数组静态初始化*/
         int[] arr = new int[]{1,2,3};
