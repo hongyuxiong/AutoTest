@@ -1,6 +1,8 @@
 //比较三个数的大小并按从小到大的顺序排列
 
 import java.util.Scanner;
+
+/**@author 111*/
 public class BiJiaoDaXiao {
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
