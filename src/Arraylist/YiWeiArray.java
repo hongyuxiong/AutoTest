@@ -21,7 +21,10 @@ public class YiWeiArray {
         /**遍历数组,范围就是数组的长度*/
         for(int i= 0;i < names.length;i++){
             System.out.println(names[i]);
+
         }
+        //打印names数组的地址值
+        System.out.println(names);
     }
 
 }
