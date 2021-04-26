@@ -32,7 +32,5 @@ public class ArrayFuZhiTrue {
         for(int i=0;i<array1.length;i++){
             System.out.print(array1[i]+" ");
         }
-
-
     }
 }

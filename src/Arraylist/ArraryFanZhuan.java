@@ -7,7 +7,7 @@ public class ArraryFanZhuan {
         //方法一
         for(int i=0;i<arr.length;i++){
            String temp =arr[i];
-           arr
+
         }
     }
 }
