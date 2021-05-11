@@ -1,6 +1,6 @@
 package Arraylist;
 
-public class ArraryFind {
+public class ArraryFindLine {
     public static void main(String[] args) {
         String[] arr = new String[]{"AA", "BB", "CC", "DD", "FF",};
         //线性查找
