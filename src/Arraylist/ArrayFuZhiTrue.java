@@ -16,8 +16,10 @@ public class ArrayFuZhiTrue {
         // 将array数组中的元素赋值给array2数组。
         array2 = new int[array1.length];
         for(int i = 0;i<array2.length;i++){
+            //将array1数组的值赋给array2
                 array2[i]=array1[i];
                 for(int j = 0;j<array2.length;j++){
+                    //将索引可以被2整除的位置替换为2的倍数
                     if(j%2 == 0){
                         array2[j]=j;
                     }
