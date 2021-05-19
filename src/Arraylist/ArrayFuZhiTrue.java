@@ -4,7 +4,9 @@ public class ArrayFuZhiTrue {
     public static void main(String[] args){
         int[] array1,array2;
         array1 = new int[]{2,3,5,7,11,13,17,19};
+        System.out.println(array1[2]+" ");
         System.out.println("array1的数组");
+
         //显示array1的内容
         for(int i=0;i<array1.length;i++){
 
