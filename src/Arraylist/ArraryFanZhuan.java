@@ -9,6 +9,7 @@ public class ArraryFanZhuan {
 
         /**
          * 方法一
+         * 网上还有很多反转的方式，还需要再学习
          */
         for (int i = 0; i < arr.length / 2; i++) {
             String temp = arr[i];
@@ -30,7 +31,8 @@ public class ArraryFanZhuan {
             arr[i] = arr[j];
             arr[j] = temp;
         }
-        System.out.println();System.out.println("将反转后的数组再次反转:");
+        System.out.println();
+        System.out.println("将反转后的数组再次反转:");
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + "\t");
         }
