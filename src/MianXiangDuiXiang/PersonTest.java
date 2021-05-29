@@ -1,5 +1,10 @@
 package MianXiangDuiXiang;
 
+
+/**
+ * 两个不同的对象各自独立的拥有一套类的属性
+ *
+ */
 public class PersonTest {
     public static void main(String[] args){
         Person p1 = new Person();
