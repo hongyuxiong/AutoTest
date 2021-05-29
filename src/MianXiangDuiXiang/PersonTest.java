@@ -2,7 +2,7 @@ package MianXiangDuiXiang;
 
 
 /**
- * 两个不同的对象各自独立的拥有一套类的属性
+ * 两个不同的对象各自独立的拥有一套类的属性，现在是非静态的类，静态的应该是不一样的。
  *
  */
 public class PersonTest {
